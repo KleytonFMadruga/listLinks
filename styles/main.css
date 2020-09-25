@@ -18,13 +18,15 @@ body{
 
 body{
     background: var(--color-background);
-    display: grid;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .avatar{
-    
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: var(--color-text);
     
@@ -33,13 +35,13 @@ body{
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .buttons-container{
     display: flex; 
-    justify-content: acenter;
-    height: 15rem;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 .buttons-container a {
@@ -53,7 +55,7 @@ body{
     color: rgb(131, 131, 131);
     flex-direction: column;
     transition: background 0.2s;
-    margin: 1rem;
+    margin: 0.7rem;
 }
 
 .buttons-container a img{
@@ -87,8 +89,8 @@ body{
 
 .texto{
     text-align: center;
-    width: 25rem;
-    margin-top: 1rem;
+    width: 18rem;
+    margin-top: 2rem;
 }
 
 
