@@ -60,6 +60,10 @@ body{
     width: 4rem;
 }
 
+.buttons-container:hover{
+    color: white;
+}
+
 .buttons-container a.button-git{
     background-color: var(--color-button);
 }
