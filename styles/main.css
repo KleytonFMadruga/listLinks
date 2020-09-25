@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 :root{
     --color-background: #363638;
     --color-button-background: #000000;
@@ -22,6 +24,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    font-family: 'Open Sans';
 }
 
 .avatar{
