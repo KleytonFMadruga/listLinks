@@ -60,7 +60,7 @@ body{
     width: 4rem;
 }
 
-.buttons-container:hover{
+.buttons-container a:hover{
     color: white;
 }
 
